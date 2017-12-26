@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export PROJECT=daq-module
+echo $PWD
+export PRJROOT=$PWD/${PROJECT}
+
+echo $PRJROOT
+cd $PRJROOT
